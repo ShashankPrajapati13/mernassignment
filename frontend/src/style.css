@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.table{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+table {
+    font-family: Gilroy;
+    border-collapse: collapse;
+    width: 50%;
+   margin: 3vmax 0; 
+   border: 1px solid black;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 0.8vmax 2vmax;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #a5d6f592;
+  }
+
+  .login{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWinBikg_GZcHBPcuOq5ufuGLKD2e2L7K3oQ&usqp=CAU");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Gilroy;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .login form {
+     background-color: white;
+     padding: 3vmax 3vmax;
+     border-radius: 0.5rem;
+  }
+  
+  .login form input{
+    padding: 1vmax;
+    border: none;
+    border-bottom: 1px solid rgb(195, 194, 194);
+    color: rgb(195, 194, 194);
+    width: 20vw;
+    margin-bottom: 1vmax;
+    outline: none;
+  }
+  .login form h5{
+   color: rgba(0, 0, 0, 0.483);
+   margin-top: 1vmax;
+  }
+  .fp-text{
+    color: rgba(0, 0, 0, 0.49);
+    text-align: right;
+    font-size: 0.9vmax;
+  }
+  .login form h1{
+    text-align: center;
+    margin-bottom: 2vmax;
+  }
+  .login form button{
+    width: 100%;
+    background-color: purple;
+    padding: 0.7vmax;
+    border-radius: 2rem;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .signup-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3vmax;
+  }
+  .signup-container h6{
+    color: rgba(0, 0, 0, 0.439);
+    margin-bottom: 1vmax;
+  }
+  .login img{
+    height: 3vmax;
+  }
+  .login img:nth-child(3){
+    height:2.4vmax;
+  }
+  .login img:nth-child(2){
+    margin-left: -20px;
+  }
+  .image-containers{
+    display: flex;
+    align-items: center;
+    margin-left: -15px;
+  }
+
+  .form-footer{
+    margin-top: 3vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.44);
+  }
+
+  .form-footer h6{
+    margin-top: 1vmax;
+  }
